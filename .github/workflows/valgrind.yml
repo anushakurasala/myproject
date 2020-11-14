@@ -22,4 +22,4 @@ jobs:
     - name: make test
       run: |
         make test -C MINIPROJECT
-        valgrind ./MINIPROJECT/build/RPS_game.out
+        valgrind ./MINIPROJECTS/build/GAME.out
